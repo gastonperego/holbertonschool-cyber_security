@@ -1,4 +1,4 @@
 #!/bin/bash
 addgroup "$1"
-chgrp "$!" "$2"
+chown ":$1" "$2"
 chmod +xr "$2"
