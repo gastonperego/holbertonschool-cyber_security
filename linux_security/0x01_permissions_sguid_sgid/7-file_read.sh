@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R o+r,o-x,o-w "$1"
+find "$1" -type f -exec chmod o+r,o-x,o-w {} \;
