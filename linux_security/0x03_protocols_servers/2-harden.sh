@@ -1,2 +1,2 @@
 #!/bin/bash
-find / -xdev -type d -perm -o=w -print -exec chmod -w {} \;
+find / -xdev -type d -perm -0002 -print -exec chmod -w {} \;
