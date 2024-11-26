@@ -1,2 +1,2 @@
-#/bin/bash
+#!/bin/bash
 nmap --script vulners $1
