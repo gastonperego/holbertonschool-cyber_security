@@ -7,5 +7,7 @@ def print_arguments
       num += 1
       puts "#{num}. #{ARGV[num - 1]}"
     end
+  else
+    puts "No arguments provided."
   end
 end
